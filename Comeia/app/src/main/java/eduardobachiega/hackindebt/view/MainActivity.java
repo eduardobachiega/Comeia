@@ -61,17 +61,23 @@ public class MainActivity extends AppCompatActivity
         if (isPj) {
             navigationView.getMenu().clear();
             navigationView.inflateMenu(R.menu.pj_drawer);
+			try {
+            	FragmentManager fragmentManager = getSupportFragmentManager();
+            	Fragment fragment = (Fragment) GenerateQRCodeFragment.class.newInstance();
+            	fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+        	}catch (Exception e){
+
+        	}
         } else {
             navigationView.getMenu().clear();
             navigationView.inflateMenu(R.menu.pf_drawer);
-        }
+            try {
+            	FragmentManager fragmentManager = getSupportFragmentManager();
+            	Fragment fragment = (Fragment) MapFragment.class.newInstance();
+            	fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+        	}catch (Exception e){
 
-        try {
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            Fragment fragment = (Fragment) MapFragment.class.newInstance();
-            fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
-        }catch (Exception e){
-
+        	}
         }
     }
 
