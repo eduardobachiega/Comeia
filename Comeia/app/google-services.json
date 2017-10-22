@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1063409327707",
+    "firebase_url": "https://hackindebt.firebaseio.com",
+    "project_id": "hackindebt",
+    "storage_bucket": "hackindebt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063409327707:android:df5e8459f93e8691",
+        "android_client_info": {
+          "package_name": "eduardobachiega.hackindebt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063409327707-ptkhepi7fo46srr0lle0jppbqfokiio6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0fv6sc1WQa4QepD6FDhY4Vbw_slm4u_M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

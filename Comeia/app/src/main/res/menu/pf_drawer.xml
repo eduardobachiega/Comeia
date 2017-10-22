@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/stores"
+            android:icon="@drawable/vd_pj"
+            android:title="@string/stores" />
+        <item
+            android:id="@+id/finances"
+            android:icon="@drawable/finances"
+            android:title="@string/finances" />
+        <item android:id="@+id/pay"
+            android:icon="@drawable/buy"
+            android:title="@string/pay"/>
+        <item android:id="@+id/moneySaved"
+            android:icon="@drawable/money_saved"
+            android:title="@string/moneySaved"/>
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

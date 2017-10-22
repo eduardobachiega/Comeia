@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Comeia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="phone_hint">(DDD) XXXXX-XXXX</string>
+    <string name="type_phone">Digite seu número de celular</string>
+    <string name="sms_dialog">Você receberá um SMS para realizar o login. As mensagens poderão ter um custo.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sms">SMS</string>
+    <string name="error_sms">Ocorreu um erro na autenticação por SMS, tente novamente.</string>
+    <string name="pf">Pessoa física</string>
+    <string name="pj">Pessoa jurídica</string>
+    <string name="title_activity_user_info">Perfil</string>
+    <string name="select_player">Selecione o seu perfil</string>
+    <string name="title_activity_register">Cadastro</string>
+    <string name="cnpj">CNPJ</string>
+    <string name="cpf">CPF</string>
+    <string name="store_name">Nome da empresa</string>
+    <string name="username">Nome completo</string>
+    <string name="store_address">Endereço da empresa</string>
+    <string name="GOOGLE_MAPS_API_KEY">AIzaSyAhXSJnPZqLQEuWv94Kt5DgheDJxoggyHo</string>
+    <string name="error">Erro</string>
+    <string name="location_error">Não foi possível obter a localização desse estabelecimento, verifique o endereço e tente novamente</string>
+
+    <!-- PF MENU TITLES -->
+    <string name="stores">Estabelecimentos</string>
+    <string name="finances">Finanças</string>
+    <string name="pay">Pagar</string>
+    <string name="moneySaved">Dinheiro poupado</string>
+
+    <!-- PJ MENU TITLES -->
+    <string name="receive">Receber</string>
+    <string name="history">Histórico</string>
+
+    <string name="value">Valor da venda</string>
+
+    <string name="generateQRCode">Gerar QRCode</string>
+
+    <string name="read_QRCode">Clique na camera para ler o QRCode</string>
+
+    <string name="descr">Sendo parte da comeia, você incentiva uma economia colaborativa. Através de um sistema de interação entre pessoas físicas e pessoas jurídicas inadimplentes, ambas tem a possibilidade de reduzir o valor de sua dívida e movimentar a economia de forma vantajosa.</string>
+
+    <string name="paymentSuccess">Pagamento efetuado</string>
+    <string name="paid">Pagamento de R$%1$.2f realizado. Você recebeu R$%2$.2f de crédito para quitar suas dívidas</string>
+</resources>
